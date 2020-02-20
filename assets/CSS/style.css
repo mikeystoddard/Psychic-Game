@@ -1,0 +1,38 @@
+ body {
+    background-image: url("/Users/user/Documents/uawork/homework/Psychic-Game/assets/Images/light-grey-terrazzo.png");;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 20px;
+  }
+  h1 {
+      color: blueviolet;
+  }
+  h4
+  {
+      color: violet
+  }
+  
+  /*MEDIA QUERIES*/
+  
+    @media screen and (max-width: 980px){
+        #lotus {
+            margin-left: 175px;
+        }
+        
+    @media only screen and (max-width: 768px){
+    
+        #lotus {
+            margin-left: 170px;
+        }  
+    
+    @media only screen and (max-width: 640px){
+    
+        h2 {
+            margin-left: 70px;
+        }
+    
+        #lotus {
+            margin-left: 145px;
+        }
+    }
+}
+    }
